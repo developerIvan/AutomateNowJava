@@ -70,7 +70,7 @@ public class Ferrari extends Car{
     }
 
     public void changeVehicleSpeed(int newSpeed){
-        if(this.TOP_SPEED_MPH>newSpeed){
+        if(this.TOP_SPEED_MPH>=newSpeed){
             this.currentSpeed = newSpeed;
         }else{
             System.out.println("Car max speed is:"+this.TOP_SPEED_MPH);
